@@ -168,6 +168,7 @@
     <None Include="app.config" />
     <None Include="efpt.config.json" />
     <None Include="packages.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
