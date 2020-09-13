@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using EntityFrameworkCoreLibrary;
+using EntityFrameworkCoreTest.Classes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EntityFrameworkCoreTest
@@ -7,7 +8,8 @@ namespace EntityFrameworkCoreTest
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [TestMethod,
+         TestTraits(Trait.EnvironmentConnections)]
         public async Task TestEntityFrameworkCore()
         {
             var contacts = await ContactOperations.GetContactsAsync();
