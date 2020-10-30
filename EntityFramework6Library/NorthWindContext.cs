@@ -2,17 +2,11 @@ using EntityFramework6Library.Models;
 
 namespace EntityFramework6Library
 {
-    using System;
+
     using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
 
     public partial class NorthWindContext : DbContext
     {
-        //public NorthWindContext()
-        //    : base("name=NorthWindContext")
-        //{
-        //}
 
 #if Dev
         public NorthWindContext() : base("name=DevConnection")
