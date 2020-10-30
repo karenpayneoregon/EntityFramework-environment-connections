@@ -4,6 +4,10 @@ This repository shows how to setup connection strings for different environments
 
 Each environment in these cases the database name(s) are the same in each environment while the server name is different for each environment. Security/permissions are different for each environment, virtually no restrictions in development while staging would match production.
 
+# TechNet
+
+For more information see [the following article](https://social.technet.microsoft.com/wiki/contents/articles/54079.entity-frameworkentity-framework-core-dynamic-connection-strings-c.aspx).
+
 
 ### Reverse engineering 
 
